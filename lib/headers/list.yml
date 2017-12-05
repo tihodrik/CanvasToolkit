@@ -1,0 +1,36 @@
+accounts:
+  - account_id
+  - parent_account_id
+  - name
+  - status
+
+courses:
+  - course_id
+  - short_name
+  - long_name
+  - account_id
+  - term_id
+  - status
+
+users:
+  - user_id
+  - login_id
+  - first_name
+  - last_name
+  - full_name
+  - short_name
+  - sortable_name
+  - email
+  - status
+
+terms:
+  - term_id
+  - name
+  - status
+  - start_date
+
+enrollments:
+  - course_id
+  - user_id
+  - role
+  - status
